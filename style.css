@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body
+{
+	font-family: "Lato", sans-serif;
+}
+.sidenav
+{
+	background: #002240;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a
+{
+	color: #fff;
+	padding: 10px 15px 10px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.sidenav a:hover
+{
+	background:  rgb(20, 54, 165);
+}
+.sidenav i {
+	font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+h2
+{
+	padding: 10px 15px 10px 16px;
+	color:#fff;
+	border-bottom-style: solid;
+}
+h1
+{
+	padding:10px 15px 10px 16px;
+	color:#fff;
+	border-bottom-style: solid; 
+}
+.container{
+    margin-right: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 4, 255, 0.5);
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.container h1{
+    margin-bottom: 10px;
+	color: #0056a7;
+}
+.container p{
+    line-height: 1.4;
+}
+img{ 
+    float: right;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
